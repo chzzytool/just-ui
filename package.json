@@ -1,6 +1,6 @@
 {
-  "name": "jsut-ui",
-  "version": "0.2.0",
+  "name": "just-for-ui",
+  "version": "0.0.2",
   "private": false,
   "type": "module",
   "description": "Vue 和 Storybook 的快速入门模板",
