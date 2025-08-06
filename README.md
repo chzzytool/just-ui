@@ -18,7 +18,7 @@ This template ships with the main Vue and Storybook configuration files you'll n
 
     ```shell
     # Clone the template
-    npx degit chromaui/intro-storybook-vue-template taskbox
+    npx degit chromaui/intro-storybook-vue-template justui
     ```
 
 1.  **Install the dependencies.**
@@ -27,7 +27,7 @@ This template ships with the main Vue and Storybook configuration files you'll n
 
     ```shell
     # Navigate to the directory
-    cd taskbox/
+    cd justui/
 
     # Install the dependencies
     yarn
@@ -35,7 +35,7 @@ This template ships with the main Vue and Storybook configuration files you'll n
 
 1.  **Open the source code and start editing!**
 
-    Open the `taskbox` directory in your code editor of choice and building your first component!
+    Open the `justui` directory in your code editor of choice and building your first component!
 
 1.  **Browse your stories!**
 

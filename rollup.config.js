@@ -25,22 +25,22 @@ export default defineConfig({
   output: [
     // ES Module 格式 (现代打包工具使用)
     {
-      file: 'dist/components.esm.js',
+      file: 'dist/justui.esm.js',
       format: 'esm',
       sourcemap: !isProduction
     },
     // CommonJS 格式 (Node.js 环境使用)
     {
-      file: 'dist/components.cjs.js',
+      file: 'dist/justui.cjs.js',
       format: 'cjs',
       sourcemap: !isProduction,
       exports: 'named'
     },
     // UMD 格式 (浏览器直接使用)
     {
-      file: 'dist/components.umd.js',
+      file: 'dist/justui.umd.js',
       format: 'umd',
-      name: 'IntroStorybookVueComponents',
+      name: 'justui',
       sourcemap: !isProduction,
       globals: {
         vue: 'Vue',
@@ -73,7 +73,7 @@ export default defineConfig({
 
     // CSS 处理
     postcss({
-      extract: 'components.css', // 提取 CSS 到单独文件
+      extract: 'style.css', // 提取 CSS 到单独文件
       minimize: isProduction,
       plugins: [
         // 你已经安装了 autoprefixer

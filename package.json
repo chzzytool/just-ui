@@ -1,5 +1,5 @@
 {
-  "name": "intro-storybook-vue-template",
+  "name": "jsut-ui",
   "version": "0.2.0",
   "private": false,
   "type": "module",
@@ -7,10 +7,10 @@
   "author": "Chromatic <https://chromatic.com/>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chromaui/intro-storybook-vue-template"
+    "url": "https://github.com/chzzytool/just-ui"
   },
   "bugs": {
-    "url": "https://github.com/chromaui/intro-storybook-vue-template/issues"
+    "url": "https://github.com/chzzytool/just-ui/issues"
   },
   "license": "MIT",
   "main": "dist/components.cjs.js",
