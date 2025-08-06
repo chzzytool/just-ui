@@ -1,0 +1,77 @@
+{
+  "name": "intro-storybook-vue-template",
+  "version": "0.2.0",
+  "private": false,
+  "type": "module",
+  "description": "Vue 和 Storybook 的快速入门模板",
+  "author": "Chromatic <https://chromatic.com/>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chromaui/intro-storybook-vue-template"
+  },
+  "bugs": {
+    "url": "https://github.com/chromaui/intro-storybook-vue-template/issues"
+  },
+  "license": "MIT",
+  "main": "dist/components.cjs.js",
+  "module": "dist/components.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:lib": "rollup -c",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "init-msw": "msw init public/",
+    "test-storybook": "test-storybook",
+    "build-comp": "rollup -c"
+  },
+  "dependencies": {
+    "pinia": "^3.0.3",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^5.1.1",
+    "@rollup/plugin-commonjs": "^26.0.3",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@storybook/addon-essentials": "^8.3.2",
+    "@storybook/addon-interactions": "^8.3.2",
+    "@storybook/addon-links": "^8.3.2",
+    "@storybook/blocks": "^8.3.2",
+    "@storybook/test": "^8.3.2",
+    "@storybook/test-runner": "^0.23.0",
+    "@storybook/vue3": "^8.3.2",
+    "@storybook/vue3-vite": "^8.3.2",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/compiler-sfc": "^3.5.18",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.57.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "msw": "^2.3.0",
+    "msw-storybook-addon": "^2.0.3",
+    "prettier": "^3.2.5",
+    "rollup": "^4.46.2",
+    "rollup-plugin-filesize": "^10.0.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^3.0.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "storybook": "^8.3.2",
+    "vite": "^5.2.8"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.21"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
+  }
+}
